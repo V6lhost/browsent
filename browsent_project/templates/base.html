@@ -1,0 +1,20 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Browsent{{ title }}</title>
+  <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <ul>
+    <img src="{% static 'img/logo.png' %}" alt="" width="100">
+    <li><a href="/index">Homepage</a></li>
+    <li><a href="/files">Files</a></li>
+    <li><a href="https://github.com/V6lhost/browsent">Source Code</a></li>
+  </ul>
+  {% block content %}{% endblock %}
+</body>
+</html>

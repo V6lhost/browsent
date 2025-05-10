@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(255, 0, 200);
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+li {
+  width: 50px;
+  background-color: bisque;
+}
