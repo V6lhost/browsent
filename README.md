@@ -12,7 +12,8 @@ I always need to share files and texts between my devices, as well as with my fr
 
 # to-do
 - [x] Complete Readme
-- [ ] Write a base working code
+- [x] Write a base working code
+- [ ] Switch Django models instead of custom /tmp file manager
 - [ ] Add compability for other operating systems
 - [ ] Create a local management panel
 - [ ] Add an authentication system and permissions
@@ -26,3 +27,4 @@ I always need to share files and texts between my devices, as well as with my fr
 
 ## Optional
 - [ ] Make a headless version for home servers etc.
+- [ ] Add support for P2P, So just a web server may be enough and doesn't slow down transfer speed
