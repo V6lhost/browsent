@@ -5,7 +5,7 @@
 <ul>
   <li><a href="/upload">Upload a file</a></li>
 </ul>
-{% for files in shared_files %}
+{% for name, size in files %}
   {% include 'browsent/partials/_file.html' %}
 {% endfor %}
 

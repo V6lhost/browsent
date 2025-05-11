@@ -7,7 +7,13 @@
     </div>
     <div class="col-md-9">
       <div class="card-body">
-        <h5 class="card-title">file {{ files }}</h5>
+        <h5 class="card-title">name: {{ name }}</h5>
+        <ul>
+          <li><a href="/download/{{ name }}">Download</a></li>
+          <li><a href="/file_info/{{ name }}">File Info</a></li>
+          <li><a href="/delete/{{ name}}">Delete</a></li>
+        </ul>
+        <h6 class="card-body">size: {{ size }}</h6>
       </div>
     </div>
   </div>
