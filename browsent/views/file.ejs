@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <%- include("partials/head", {
+    title: name
+  })  %> 
+</head>
+<body>
+  <%- include("partials/navbar.ejs", {
+    is_active_home: "",
+    is_active_files: "active"
+  }) %> 
+  <h2>you cannot access <%= name %>  right now, because I'm developing!</h2>
+  <li>size: <%= size %> </li>
+  <li>auth needed: <%= auth %> </li>
+</body>
+</html>

@@ -5,15 +5,14 @@ A simple web-based file and text sharing application. It is enough for one of th
 *Fun fact: I chose "sent" instead of "send". Because file sharing over Wifi/Internet very fast :D*
 
 ## Tech in Background
-In the background, I'm taking advantage of Python and Django's capabilities and practicality. They allow me to quickly turn my ideas into code, test them and fix errors more easily.
+In the beginning, I started with Python and Django. But I thought maybe node.js can be a better alternative. So, I switched to node.js. Now I'm using express, bootstrap and ejs libraries.
 
 ## How Did I Decide to Build This App
 I always need to share files and texts between my devices, as well as with my friend's devices. I've tried several applications for this purpose, but none of them fully met my needes. So I decided to build this app.
 
 # to-do
 - [x] Complete Readme
-- [x] Write a base working code
-- [ ] Switch Django models instead of custom /tmp file manager
+- [ ] Write a base working code
 - [ ] Add compability for other operating systems
 - [ ] Create a local management panel
 - [ ] Add an authentication system and permissions
